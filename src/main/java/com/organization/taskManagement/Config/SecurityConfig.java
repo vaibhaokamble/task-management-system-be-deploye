@@ -53,7 +53,10 @@ public class SecurityConfig {
                                 "/v3/api-docs/**",
                                 "/swagger-ui/**",
                                 "/swagger-ui.html",
-                                "/error/**")
+                                "/error/**",
+                                "/favicon.ico",
+                                "/"
+                                )
                         .permitAll()
                         .requestMatchers("/user/**").hasAuthority("EMPLOYEE")
                         .requestMatchers("/admin/**").hasAuthority("TEAM_LEAD")
