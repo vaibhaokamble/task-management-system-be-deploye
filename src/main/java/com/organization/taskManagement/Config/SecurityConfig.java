@@ -107,7 +107,7 @@ public class SecurityConfig {
             config.setAllowedOriginPatterns(List.of(origins));
         } else {
             config.setAllowedOriginPatterns(List.of(
-                    "http://localhost:5173"
+                    "task-management-system-fe-deploye-k6j0tyl13-vaibhao.vercel.app"
             ));
         }
 
