@@ -107,7 +107,7 @@ public class SecurityConfig {
             config.setAllowedOriginPatterns(List.of(origins));
         } else {
             config.setAllowedOriginPatterns(List.of(
-                    "task-management-system-fe-deploye-k6j0tyl13-vaibhao.vercel.app"
+                    "https://task-management-system-fe-deploye-k6j0tyl13-vaibhao.vercel.apptask-management-system-fe-deploye-k6j0tyl13-vaibhao.vercel.app"
             ));
         }
 
