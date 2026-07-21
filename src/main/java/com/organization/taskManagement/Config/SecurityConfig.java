@@ -123,6 +123,7 @@ public class SecurityConfig {
                 "X-Requested-With"
         ));
 
+
         //  Expose only necessary headers
         config.setExposedHeaders(List.of("Authorization", "Content-Length"));
 
